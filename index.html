@@ -4,11 +4,287 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <title>Team Portfolio</title>
 </head>
 
 <body>
 
+    <!-- Hero Section + NavBar !-->
+    <nav class="navbar">
+        <div class="logoArea">
+            <img src="/asserts/Logo.jpeg" class="logo" loading="lazy">
+            <h4 class="title">Team Portfolio</h4>
+        </div>
+        <ul class="navLinks">
+            <li><a href="/">Home</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <h4 class="herotitle"><span>Hey,</span> Meet Our Squad</h4>
+            <p class="subtitle">Explore Portfolio Packed with Passion</p>
+            <div class="team">
+                <div class="member">
+                    <h5 class="name">Bonam Sandhya</h5>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/sandhyabonam" target="_blank"><i
+                                class='bxl  bx-linkedin-square' style='color:#5b84ff'></i> </a>
+                        <a href="https://github.com/Sandhyabonam" target="_blank"><i class='bxl  bx-github'
+                                style='color:#ffffff'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="member">
+                    <h5 class="name">Pujyam Dheeraj</h5>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/dheeraj-pujyam" target="_blank"><i
+                                class='bxl  bx-linkedin-square' style='color:#5b84ff'></i> </a>
+                        <a href="https://github.com/dheeraj-90040" target="_blank"><i class='bxl  bx-github'
+                                style='color:#ffffff'></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="member">
+                    <h5 class="name">R Murali Krishna</h5>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/murali(ruthala)krishna" target="_blank"><i
+                                class='bxl  bx-linkedin-square' style='color:#5b84ff'></i> </a>
+                        <a href=" https://github.com/muralikrishnadigicbyte-ui" target="_blank"><i
+                                class='bxl  bx-github' style='color:#ffffff'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./asserts/Hero - img.gif" class="heroImg" loading="lazy">
+    </section>
+    <section class="about_us">
+        <h4 class="title" id="about_us">About US</h4>
+        <div class="container">
+            <img src="/asserts/AboutUS.jpeg" class="about_img" loading="lazy">
+            <div class="cards">
+                <div class="card_profile gradient-border">
+                    <img src="/asserts/profiles/sandhya.jpg" alt="I am Sandhya" class="profilePic" loading="lazy">
+                    <div class="profile_Info">
+                        <h4 class="name">Bonam Sandhya</h4>
+                        <p class="summary">Junior Software Developer Trainee at DigiCByte Technology Pvt Ltd skilled in
+                            Java, SQL, and Frontend Development (HTML, CSS, JavaScript). Proficient with Eclipse, MySQL
+                            Workbench, and VS Code. Quick learner with strong adaptability, teamwork, and a focus on
+                            writing
+                            clean, efficient code.</p>
+                        <ul class="skills">
+                            <li class="skill">Core Java</li>
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">SQL</li>
+                            <li class="skill">springboot</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card_profile">
+                    <img src="/asserts/profiles/PujyamDheeraj.jpg" alt="I am Dheeraj" class="profilePic" loading="lazy">
+                    <div class="profile_Info">
+                        <h4 class="name">Pujyam Dheeraj</h4>
+                        <p class="summary">Junior Software Developer Trainee at DigiCByte Technology Pvt Ltd skilled in
+                            C++, Java, DSA, and Frontend Development (HTML, CSS, JavaScript, React.js). Passionate about
+                            building clean and efficient software solutions. Strong in problem-solving, adaptability,
+                            and teamwork with a drive to keep learning and improving.</p>
+                        <ul class="skills">
+                            <li class="skill">C++</li>
+                            <li class="skill">Java</li>
+                            <li class="skill">Data Structures & Algorithms</li>
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">React.js</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card_profile">
+                    <img src="/asserts/profiles/murali Krishna.jpeg" alt="I am Dheeraj" class="profilePic"
+                        loading="lazy">
+                    <div class="profile_Info">
+                        <h4 class="name">Ruthala Murali Krishna</h4>
+                        <p class="summary">Junior Software Developer Trainee at DigiCByte Technology Pvt Ltd skilled in
+                            Java, Python (Basics), and Frontend Development (HTML, CSS, JavaScript, React.js).
+                            Passionate about building efficient, user-focused solutions with clean code. Strong in
+                            problem-solving, adaptability, and teamwork with a drive to learn and deliver quality
+                            software.</p>
+                        <ul class="skills">
+                            <li class="skill">Java</li>
+                            <li class="skill">Python</li>
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">React.js</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section-->
+    <section id="projects" class="projects">
+        <h2 class="projects-heading"><img src="/asserts/projects_icon.png" alt="Folder Icon" class="heading-icon"
+                id="projects">Our
+            Projects</h2>
+
+        <div class="project-filter">
+            <label for="teamFilter">Filter by Team Member:</label>
+            <select id="teamFilter">
+                <option value="all">All</option>
+                <option value="Sandhya">Sandhya</option>
+                <option value="Dheeraj">Dheeraj</option>
+                <option value="Murali Krishna">Murali Krishna</option>
+            </select>
+        </div>
+
+        <div class="project-container">
+            <div class="project-card" data-member="Sandhya">
+                <div class="project-card-image">
+                    <img src="/asserts/sandhya_home.png" alt="Sandhya Home Page" loading="lazy">
+                </div>
+                <div class="project-card-details">
+                    <h3>Fraudulent Credit Card Activity Detection</h3>
+                    <p>Machine learning-based system detecting fraudulent credit card transactions.</p>
+                    <p>Uses Adaptive Boosting and Aggregate Voting techniques.</p>
+                    <p>Enhances security and minimizes risk.</p>
+                    <div class="project-tech-stack">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Java</span>
+                        <span class="skill">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-member="Dheeraj">
+                <div class="project-card-image">
+                    <img src="/asserts/dheeraj.png" alt="Dheeraj Home Page" loading="lazy">
+                </div>
+                <div class="project-card-details">
+                    <h3>Bankist Vault – Finance Tracker & Budget Buddy</h3>
+                    <p>Sleek finance tracker to manage budget and monitor expenses.</p>
+                    <p>Supports transfers, loan requests, and currency conversion.</p>
+                    <div class="project-tech-stack">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-member="Murali Krishna">
+                <div class="project-card-image">
+                    <img src="/asserts/murali_home.png" alt="Murali Home Page" loading="lazy">
+                </div>
+                <div class="project-card-details">
+                    <h3>Food Rescue Service Platform</h3>
+                    <p>Web platform connecting donors, restaurants, and event organizers with NGOs.</p>
+                    <p>Efficient redistribution of surplus food to those in need.</p>
+                    <div class="project-tech-stack">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Java</span>
+                        <span class="skill">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="contact-section">
+        <header class="contact-header">
+            <h2 class="title" id="contact">Contact Us</h2>
+            <p class="sub-title">Collaboration starts here. Whether it’s a suggestion, a project, or a simple hello,
+                meet our team below.
+            </p>
+        </header>
+
+        <div class="contact-main-wrapper">
+            <div class="contact-team-wrapper">
+                <div class="contact-team-section">
+                    <div class="contact-card">
+                        <h4>Bonam Sandhya</h4>
+                        <p>
+                            <span><img src="/asserts/emali.jpg" class="icon"></span>
+                            sandhyabonam07@gmail.com
+                        </p>
+                        <p>
+                            <span><img src="/asserts/location.jpg" class="icon"></span>
+                            Hyderabad
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h4>Pujyam Dheeraj</h4>
+                        <p>
+                            <span><img src="/asserts/emali.jpg" class="icon"></span>
+                            pujyamdheeraj@gmail.com
+                        </p>
+                        <p>
+                            <span><img src="/asserts/location.jpg" class="icon"></span>
+                            Vijayawada
+                        </p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h4>Ruthala Murali Krishna</h4>
+                        <p>
+                            <span><img src="/asserts/emali.jpg" class="icon"></span>
+                            mualikrishna9@gmail.com
+                        </p>
+                        <p>
+                            <span><img src="/asserts/location.jpg" class="icon"></span>
+                            Rajahmundry
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-button-wrapper">
+                    <button id="contactBtn">Contact Us</button>
+                </div>
+            </div>
+
+            <div class="contact-image-section">
+                <img src="/asserts/Contact Us.jpeg" alt="Join Us Illustration">
+            </div>
+        </div>
+
+        <div class="contact-social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+
+
+
+        <div id="contactModal" class="contact-modal">
+            <div class="contact-modal-content">
+                <span class="contact-close-btn">&times;</span>
+                <p>Thanks for reaching out! We’ll get back to you soon.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-footer">
+            © 2025 Team DigiCByte. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
